@@ -1,0 +1,8 @@
+cd web-backend/oplossingen/laravel/todo-youtube
+
+seeden lukt niet
+UsersTable do not exist?
+
+Uiteindelijk kunnen seeden maar niet volgens de classes
+
+routes moeten in de middleware group van routes.php staan, anders krijg ik telkens een error dat $errors niet gekend is.

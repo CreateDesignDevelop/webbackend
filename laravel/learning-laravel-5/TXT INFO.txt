@@ -1,0 +1,26 @@
+cd web-backend/oplossingen/laravel/learning-laravel-5
+http://oplossingen.web-backend.local/laravel/learning-laravel-5/public/articles
+
+.env files are always ignored by git
+
+in .gitignore file staan de files die git zal negeren (om bepaalde gevoelige data niet te tonen (database gegevens enz...))
+
+CMD
+migration is makkelijk omdat je op die manier snel databases kunt eenmaken (ze worden vanuit de laravel gemaakt (vanuit klasses opgemaakt))
+soort van version control voor databases
+stel dat persoon a iets veranderd aan het project en persoon b pullt datzelfde project, heeft hij automatisch alle wijzigingen en kan hij zelf de database opmaken
+
+database/migrations zijn de klassen
+
+command
+	php artisan 					see different options
+	php artisan migrate				migrate databases
+	php artisan migrate: rollback	do sort of an undo (rollback, fix something and the re-migrate)
+	php artisan make:migration 		makes class to migrate (missing name and so forth, do help)
+	php artisan make:migration add_excerpt_to_table 		(bijvoorbeeld)
+	php artisan make:controller ArticlesController--plain 	(--plain = with basic funtions)
+
+	make a model article, found in app folder
+	php artisan make:model Article
+
+

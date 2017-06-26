@@ -1,0 +1,8 @@
+		<h1>DIT IS BODY</h1>
+		<?php foreach ($artikels as $key => $value):?>
+			<div class="artikel">
+				<h2> <?php echo $value['title']?> </h2>
+				<p> <?php echo $value['text']?> </p>
+				<p> <?php echo $value['tags']?> </p>
+			</div>
+		<?php endforeach?>

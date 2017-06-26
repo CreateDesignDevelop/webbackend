@@ -1,0 +1,7 @@
+[14:59:36] - 127.0.0.1 - type:[error]
+[15:01:53] - 127.0.0.1 - type:[error]
+[15:02:10] - 127.0.0.1 - type:[error]
+[15:03:00] - 127.0.0.1 - type:[error]
+[15:03:16] - 127.0.0.1 - type:[error]De kortingscode heeft niet de juiste lengte
+[14:42:43] - 127.0.0.1 - type:[error]De kortingscode heeft niet de juiste lengte
+
